@@ -23,7 +23,7 @@ public class CopyCharacters {
             int c;
             String as = "";
             while ((c = inputStream.read()) != -1) {
-                System.out.format("%s is kept in byte code of %s\n", (char) c, c);
+                System.out.format("%s is kept in byte stream of %s\n", (char) c, c);
                 sentence = sentence + (char) c;
 
                 outputStream.write(c);

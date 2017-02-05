@@ -17,7 +17,7 @@ public class CopyBytes {
 
 
             while ((c = in.read()) != -1) {
-                System.out.format("%s is kept in byte code of %s\n", (char) c, c);
+                System.out.format("%s is kept in byte stream of %s\n", (char) c, c);
                 sentence = sentence + (char) c;
 
                 out.write(c);
